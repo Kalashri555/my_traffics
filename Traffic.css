@@ -1,0 +1,48 @@
+body {
+    background-color: #546678;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .traffic-light {
+    width: 80px;
+    height: 240px;
+    background-color: #222;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .light {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px auto;
+    background-color: #333;
+    transition: background-color 0.5s ease;
+  }
+  
+  .red.active {
+    background-color: red;
+  }
+  
+  .yellow.active {
+    background-color: yellow;
+  }
+  
+  .green.active {
+    background-color: green;
+  }
+  
